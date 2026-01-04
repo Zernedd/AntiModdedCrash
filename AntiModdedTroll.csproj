@@ -330,6 +330,9 @@
     <Reference Include="UnityEngine.DirectorModule">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
+    <Reference Include="Utilla%283%29">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\BepInEx\plugins\Utilla(3).dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HarmonyPatches.cs" />
