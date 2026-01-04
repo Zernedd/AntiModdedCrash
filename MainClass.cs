@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using GorillaLocomotion;
+using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,14 @@ namespace AntiModdedTroll
     public class MainClass : BaseUnityPlugin
     {
         public static bool allowed;
-        void Awake() { GTPlayer.Instance.AddComponent<HarmonyPatches>(); }
+        void Awake() {
+            Harmony harmony = new Harmony("com.Zern.NoTroll");
+            harmony.PatchAll();
+            GorillaTagger.OnPlayerSpawned(() =>
+            {
+                GTPlayer.Instance.gameObject.AddComponent<HarmonyPatches>();
+            });
+        }
 
         //moddded stuff
         [ModdedGamemodeJoin]

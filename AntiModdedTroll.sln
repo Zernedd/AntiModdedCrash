@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiModdedTroll", "AntiModdedTroll\AntiModdedTroll.csproj", "{C6CB9046-2C83-47E4-97FA-2064B7D80001}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiModdedTroll", "AntiModdedTroll.csproj", "{C6CB9046-2C83-47E4-97FA-2064B7D80001}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {926C0203-16EB-4B82-B69C-F8F737005259}
+		SolutionGuid = {2A91CB8B-1663-4B31-BB2E-56E55CCCCBE3}
 	EndGlobalSection
 EndGlobal
